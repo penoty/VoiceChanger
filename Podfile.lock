@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (0.6.4)
+  - MBProgressHUD (1.0.0)
+  - TheAmazingAudioEngine (1.5.6)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD
+  - TheAmazingAudioEngine
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  TheAmazingAudioEngine: 0ed8c05486646373a48b22a341d31de42d1af2c3
+
+PODFILE CHECKSUM: 87cc44c78736d9db58eab36770bb31f20f5d172e
+
+COCOAPODS: 1.0.1

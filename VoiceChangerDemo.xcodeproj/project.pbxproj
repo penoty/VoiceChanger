@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46131EE91DD9ED2000FD672F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46131EE81DD9ED2000FD672F /* main.m */; };
+		46131EEC1DD9ED2000FD672F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46131EEB1DD9ED2000FD672F /* AppDelegate.m */; };
+		46131EEF1DD9ED2000FD672F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46131EEE1DD9ED2000FD672F /* ViewController.m */; };
+		46131EF21DD9ED2000FD672F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46131EF01DD9ED2000FD672F /* Main.storyboard */; };
+		46131EF41DD9ED2000FD672F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46131EF31DD9ED2000FD672F /* Assets.xcassets */; };
+		46131EF71DD9ED2000FD672F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46131EF51DD9ED2000FD672F /* LaunchScreen.storyboard */; };
+		462A1E501DE1822B004B3C85 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A1E4F1DE1822B004B3C85 /* Toast+UIView.m */; };
+		5B2A40896AF6769C5930234B /* libPods-VoiceChangerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9056A66CE5F88AF1FD94E70 /* libPods-VoiceChangerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		392570D5DB8B767E64CDF405 /* Pods-VoiceChangerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChangerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceChangerDemo/Pods-VoiceChangerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		46131EE41DD9ED2000FD672F /* VoiceChangerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChangerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46131EE81DD9ED2000FD672F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46131EEA1DD9ED2000FD672F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46131EEB1DD9ED2000FD672F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46131EED1DD9ED2000FD672F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46131EEE1DD9ED2000FD672F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46131EF11DD9ED2000FD672F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46131EF31DD9ED2000FD672F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46131EF61DD9ED2000FD672F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46131EF81DD9ED2000FD672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462A1E4E1DE1822B004B3C85 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "Vendor/Toast/Toast+UIView.h"; sourceTree = "<group>"; };
+		462A1E4F1DE1822B004B3C85 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "Vendor/Toast/Toast+UIView.m"; sourceTree = "<group>"; };
+		8A03EDA9906F6DC4F1656246 /* Pods-VoiceChangerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChangerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceChangerDemo/Pods-VoiceChangerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D9056A66CE5F88AF1FD94E70 /* libPods-VoiceChangerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceChangerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46131EE11DD9ED2000FD672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A40896AF6769C5930234B /* libPods-VoiceChangerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101C224547DADB65015FBCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9056A66CE5F88AF1FD94E70 /* libPods-VoiceChangerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46131EDB1DD9ED2000FD672F = {
+			isa = PBXGroup;
+			children = (
+				46131EE61DD9ED2000FD672F /* VoiceChangerDemo */,
+				46131EE51DD9ED2000FD672F /* Products */,
+				E3D877964CCF3427D3406E7D /* Pods */,
+				101C224547DADB65015FBCDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46131EE51DD9ED2000FD672F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46131EE41DD9ED2000FD672F /* VoiceChangerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46131EE61DD9ED2000FD672F /* VoiceChangerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				462A1E4C1DE1820C004B3C85 /* Vendor */,
+				46131EEA1DD9ED2000FD672F /* AppDelegate.h */,
+				46131EEB1DD9ED2000FD672F /* AppDelegate.m */,
+				46131EED1DD9ED2000FD672F /* ViewController.h */,
+				46131EEE1DD9ED2000FD672F /* ViewController.m */,
+				46131EF01DD9ED2000FD672F /* Main.storyboard */,
+				46131EF31DD9ED2000FD672F /* Assets.xcassets */,
+				46131EF51DD9ED2000FD672F /* LaunchScreen.storyboard */,
+				46131EF81DD9ED2000FD672F /* Info.plist */,
+				46131EE71DD9ED2000FD672F /* Supporting Files */,
+			);
+			path = VoiceChangerDemo;
+			sourceTree = "<group>";
+		};
+		46131EE71DD9ED2000FD672F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46131EE81DD9ED2000FD672F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462A1E4C1DE1820C004B3C85 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				462A1E4D1DE18213004B3C85 /* Toast */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		462A1E4D1DE18213004B3C85 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				462A1E4E1DE1822B004B3C85 /* Toast+UIView.h */,
+				462A1E4F1DE1822B004B3C85 /* Toast+UIView.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		E3D877964CCF3427D3406E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				392570D5DB8B767E64CDF405 /* Pods-VoiceChangerDemo.debug.xcconfig */,
+				8A03EDA9906F6DC4F1656246 /* Pods-VoiceChangerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46131EE31DD9ED2000FD672F /* VoiceChangerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46131EFB1DD9ED2000FD672F /* Build configuration list for PBXNativeTarget "VoiceChangerDemo" */;
+			buildPhases = (
+				3A0A4671D11A4D0C3EE26D11 /* [CP] Check Pods Manifest.lock */,
+				46131EE01DD9ED2000FD672F /* Sources */,
+				46131EE11DD9ED2000FD672F /* Frameworks */,
+				46131EE21DD9ED2000FD672F /* Resources */,
+				2DEDC2BBC662B554481971BD /* [CP] Embed Pods Frameworks */,
+				F5EA5A2F2EA7BABB5B744A98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceChangerDemo;
+			productName = VoiceChangerDemo;
+			productReference = 46131EE41DD9ED2000FD672F /* VoiceChangerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46131EDC1DD9ED2000FD672F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = penoty;
+				TargetAttributes = {
+					46131EE31DD9ED2000FD672F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4S5ZE8N72K;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 46131EDF1DD9ED2000FD672F /* Build configuration list for PBXProject "VoiceChangerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46131EDB1DD9ED2000FD672F;
+			productRefGroup = 46131EE51DD9ED2000FD672F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46131EE31DD9ED2000FD672F /* VoiceChangerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46131EE21DD9ED2000FD672F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46131EF71DD9ED2000FD672F /* LaunchScreen.storyboard in Resources */,
+				46131EF41DD9ED2000FD672F /* Assets.xcassets in Resources */,
+				46131EF21DD9ED2000FD672F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DEDC2BBC662B554481971BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceChangerDemo/Pods-VoiceChangerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0A4671D11A4D0C3EE26D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EA5A2F2EA7BABB5B744A98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceChangerDemo/Pods-VoiceChangerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46131EE01DD9ED2000FD672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46131EEF1DD9ED2000FD672F /* ViewController.m in Sources */,
+				462A1E501DE1822B004B3C85 /* Toast+UIView.m in Sources */,
+				46131EEC1DD9ED2000FD672F /* AppDelegate.m in Sources */,
+				46131EE91DD9ED2000FD672F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46131EF01DD9ED2000FD672F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46131EF11DD9ED2000FD672F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46131EF51DD9ED2000FD672F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46131EF61DD9ED2000FD672F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46131EF91DD9ED2000FD672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46131EFA1DD9ED2000FD672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46131EFC1DD9ED2000FD672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392570D5DB8B767E64CDF405 /* Pods-VoiceChangerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4S5ZE8N72K;
+				INFOPLIST_FILE = VoiceChangerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penoty.VoiceChangerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46131EFD1DD9ED2000FD672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A03EDA9906F6DC4F1656246 /* Pods-VoiceChangerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4S5ZE8N72K;
+				INFOPLIST_FILE = VoiceChangerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penoty.VoiceChangerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46131EDF1DD9ED2000FD672F /* Build configuration list for PBXProject "VoiceChangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46131EF91DD9ED2000FD672F /* Debug */,
+				46131EFA1DD9ED2000FD672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46131EFB1DD9ED2000FD672F /* Build configuration list for PBXNativeTarget "VoiceChangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46131EFC1DD9ED2000FD672F /* Debug */,
+				46131EFD1DD9ED2000FD672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46131EDC1DD9ED2000FD672F /* Project object */;
+}
