@@ -185,7 +185,8 @@
     _audioPlayer = [[AEAudioFilePlayer alloc] initWithURL:url error:nil];
     __weak __typeof__(self) weakSelf = self;
     [_audioPlayer setCompletionBlock:^{
-        [weakSelf playBtnTapped:weakSelf.playBtn];
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        [weakSelf playBtnTapped:strongSelf.playBtn];
     }];
     
     [_audioController addChannels:@[_audioPlayer]];
